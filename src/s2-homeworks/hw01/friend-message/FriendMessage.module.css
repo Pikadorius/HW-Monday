@@ -28,7 +28,8 @@
 .friendText:after {
     content: '';
     position: absolute; /* Абсолютное позиционирование */
-    left: -10px; bottom: 0px; /* Положение треугольника */
+    left: -10px;
+    bottom: 0px; /* Положение треугольника */
     border: 10px solid transparent; /* Прозрачные границы */
     border-bottom: 10px solid #F5F7FB; /* Добавляем треугольник */
     border-right: 10px solid #F5F7FB;
@@ -49,11 +50,12 @@
 .friendMessageText {
     font-family: 'Montserrat';
     font-style: normal;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     /* identical to box height */
-
+    white-space: pre-wrap;
 
     color: #000000;
 }
