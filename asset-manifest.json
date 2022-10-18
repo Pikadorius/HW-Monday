@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HW-Monday/static/css/main.a221cdf2.css",
-    "main.js": "/HW-Monday/static/js/main.4e2d479d.js",
+    "main.css": "/HW-Monday/static/css/main.ecc6cb28.css",
+    "main.js": "/HW-Monday/static/js/main.c2151f2e.js",
     "static/js/787.66cb4309.chunk.js": "/HW-Monday/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/HW-Monday/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/HW-Monday/index.html",
-    "main.a221cdf2.css.map": "/HW-Monday/static/css/main.a221cdf2.css.map",
-    "main.4e2d479d.js.map": "/HW-Monday/static/js/main.4e2d479d.js.map",
+    "main.ecc6cb28.css.map": "/HW-Monday/static/css/main.ecc6cb28.css.map",
+    "main.c2151f2e.js.map": "/HW-Monday/static/js/main.c2151f2e.js.map",
     "787.66cb4309.chunk.js.map": "/HW-Monday/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a221cdf2.css",
-    "static/js/main.4e2d479d.js"
+    "static/css/main.ecc6cb28.css",
+    "static/js/main.c2151f2e.js"
   ]
 }
