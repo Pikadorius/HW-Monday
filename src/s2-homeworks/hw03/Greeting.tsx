@@ -26,6 +26,7 @@ const Greeting: React.FC<GreetingPropsType> = (
     } // деструктуризация пропсов
 ) => {
     const inputClass = error ? `${s.errorInput} ${s.input}` : s.input; // need to fix with (?:)
+    const errorClass= error? s.error : s.hiddenDiv;
 
     return (
         <div id={'hw3-form'} className={s.greetingForm}>
@@ -46,7 +47,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                         onKeyDown={onEnter}
                         onBlur={onBlur}
                     />
-                     <div id={'hw3-error'} className={s.error}>
+                    <div id={'hw3-error'} className={errorClass}>
                         {error}
                     </div>
                 </div>
