@@ -49,4 +49,4 @@ function Affair(props: AffairPropsType) {
     )
 }
 
-export default Affair
+export default Affair;
