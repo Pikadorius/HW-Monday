@@ -11,7 +11,7 @@
     border-radius: 0;
     height: 100%; /* 100% Полный рост */ /* 0 ширина - измените это с помощью JavaScript */
     position: fixed; /* Оставаться на месте */
-    z-index: 2; /* Оставайтесь на вершине */
+    z-index: 3; /* Оставайтесь на вершине */
     top: 0;
     left: 0; /* Черный */
     overflow-x: hidden; /* Отключить горизонтальную прокрутку */
@@ -20,11 +20,13 @@
 
 .background {
     position: absolute;
+    top: 0;
+    left: 0;
     width:100%;
     height:100%;
     background:#000;
     opacity:0.3;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav {
