@@ -30,7 +30,7 @@
 .text:after {
     content: '';
     position: absolute; /* Абсолютное позиционирование */
-    right: -10px; bottom: 0px; /* Положение треугольника */
+    right: -10px; bottom: 0; /* Положение треугольника */
     border: 10px solid transparent; /* Прозрачные границы */
     border-bottom: 10px solid #0066CC; /* Добавляем треугольник */
     border-left: 10px solid #0066CC;
