@@ -9,7 +9,7 @@
     height: 30px;
     border-radius: 3px;
 
-    font-family: 'Montserrat', serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -42,8 +42,6 @@
 .red {
     background: #CC1439;
     color: #FFFFFF;
-
-
 }
 
 .default:hover {

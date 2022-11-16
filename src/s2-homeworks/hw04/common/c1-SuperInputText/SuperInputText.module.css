@@ -4,8 +4,21 @@
 .input {
     border: 1px solid #D1D1D1;
     border-radius: 5px;
-    width: 372px;
+    width: 276px;
     height: 36px;
+    padding: 8px 0 8px 24px;
+    outline: none;
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
 }
 
 .inputWrapper {
@@ -24,7 +37,7 @@
 }
 
 .error {
-    font-family: 'Montserrat', serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
