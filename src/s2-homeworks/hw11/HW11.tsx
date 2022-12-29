@@ -3,6 +3,7 @@ import s from './HW11.module.css'
 import s2 from '../../s1-main/App.module.css'
 import {restoreState} from '../hw06/localStorage/localStorage'
 import SuperRange from './common/c7-SuperRange/SuperRange'
+import {log} from 'util';
 
 /*
 * 1 - передать значения в оба слайдера
@@ -19,7 +20,8 @@ function HW11() {
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
         console.log(value)
         console.log(Array.isArray(value))
-        if (Array.isArray(value)) {
+        console.log(value instanceof Array)
+        if (value instanceof Array) {
             setValue1(value[0])
             setValue2(value[1])
         } else setValue1(value)
