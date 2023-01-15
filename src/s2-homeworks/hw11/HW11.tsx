@@ -40,6 +40,7 @@ function HW11() {
                             // сделать так чтоб value1 изменялось // пишет студент
                             onChange={change}
                             value={value1}
+                            valueLabelDisplay={'auto'}
                         />
                     </div>
                     <div className={s.wrapper}>
@@ -49,6 +50,7 @@ function HW11() {
                             // сделать так чтоб value1/2 изменялось // пишет студент
                             onChange={change}
                             value={[value1, value2]}
+                            valueLabelDisplay='auto'
                         />
                         <span id={'hw11-value-2'} className={s.number}>{value2}</span>
                     </div>
