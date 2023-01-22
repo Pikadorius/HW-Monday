@@ -18,7 +18,12 @@ const arr = [
 ] // value может быть изменено
 
 const HW7 = () => {
+
     const [value, onChangeOption] = useState(1)
+
+    const handletest = (e:any) => {
+        onChangeOption(+e.currentTarget.value)
+    }
 
     return (
         <div id={'hw7'}>
@@ -31,6 +36,7 @@ const HW7 = () => {
                             id={'hw7-super-select'}
                             options={arr}
                             value={value}
+                            // onChange = {handletest}
                             onChangeOption={onChangeOption}
                         />
                     </div>
